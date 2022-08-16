@@ -22,7 +22,7 @@
  *
  * https://github.com/muennich/sxiv/pull/428
  */
-#define ALLOW_ESCAPE_KEY_IN_EXTERNAL_KEY_HANDLER_PATCH 0
+#define ALLOW_ESCAPE_KEY_IN_EXTERNAL_KEY_HANDLER_PATCH 1
 
 /* Adds alpha support not for transparency, but to allow sxiv to be embedded into applications
  * that expects support it (e.g. tabbed with alpha patch).
@@ -74,12 +74,12 @@
  *
  * https://github.com/muennich/sxiv/pull/369
  */
-#define FIFO_PATCH 0
+#define FIFO_PATCH 1
 
 /* Adds the ability to cycle when viewing multiple images.
  * https://github.com/i-tsvetkov/sxiv-patches
  */
-#define IMAGE_MODE_CYCLE_PATCH 0
+#define IMAGE_MODE_CYCLE_PATCH 1
 
 /* Add support for remote links with libcurl
  *
@@ -93,7 +93,7 @@
  *
  * https://github.com/explosion-mental/sxiv/blob/main/patches/libcurl.patch
  */
-#define LIBCURL_PATCH 0
+#define LIBCURL_PATCH 1
 
 /* Shows marked files with a separate colored border in the thumbnail view.
  * The color can be specified by adding Sxiv.mark in your .Xresources file.
@@ -152,7 +152,7 @@
  *
  * https://github.com/muennich/sxiv/pull/440
  */
-#define SVG_IMAGE_SUPPORT_PATCH 0
+#define SVG_IMAGE_SUPPORT_PATCH 1
 
 /* Swaps the foreground and background colors of the bar.
  * https://github.com/muennich/sxiv/pull/392
@@ -180,7 +180,7 @@
  *
  * https://github.com/muennich/sxiv/pull/437
  */
-#define WEBP_IMAGE_SUPPORT_PATCH 0
+#define WEBP_IMAGE_SUPPORT_PATCH 1
 
 /* Makes the window size fit the image when displaying a single image.
  * https://github.com/i-tsvetkov/sxiv-patches

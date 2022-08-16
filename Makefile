@@ -25,8 +25,8 @@ svglibs = `pkg-config --cflags --libs librsvg-2.0 cairo`
 webplibs = -lwebpdemux -lwebp
 
 # Uncomment to enable libcurl support / LIBCURL_PATCH
-#curllibs = -lcurl
-#curlobjs = url.o
+curllibs = -lcurl
+curlobjs = url.o
 
 cflags = -std=c99 -Wall -pedantic $(CFLAGS)
 cppflags = -I. $(CPPFLAGS) -D_XOPEN_SOURCE=700 \
