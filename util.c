@@ -240,8 +240,4 @@ char *tmp_pipe_drain(char *pipe)
 	return path;
 }
 
-CLEANUP void tmp_unlink(char **rmfiles, int n) {
-	while (n--)
-		unlink(rmfiles[n]);
-}
 #endif // FIFO_PATCH
